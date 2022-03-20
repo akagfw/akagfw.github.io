@@ -1,0 +1,59 @@
+#lu{
+	padding-top: 50px;
+	list-style: none;
+}
+#lp{
+	list-style: none;
+}
+#login{
+	text-align: center;
+	padding-top: 100px;
+}
+#user{
+	height: 120px;
+	width: 700px;
+	padding: 0;
+	font-size: 50px;
+	border: #fff;
+	padding-left: 15px;
+	border-bottom: 20px;
+	border-bottom: 10px solid #eaeaea;
+	border-radius: 4px;
+}
+#password{
+	height: 120px;
+	width: 700px;
+	padding: 0;
+	font-size: 50px;
+	border: #fff;
+	padding-left: 15px;
+	border-radius: 4px;
+}
+#remember{
+
+	width: 50px;
+	height: 50px;
+}
+
+#text{
+	font-size: 50px;
+}
+body{
+	background: #eee;
+}
+#go{
+	font-size: 50px;
+	line-height: 100px;
+	background-color: #146fdf;
+	color: #fff;
+	border-radius: 4px;
+	width: 700px;
+}
+#qq-img{
+	width: 220px;
+	height: 250px;
+}
+#rem{
+	padding-top: 50px;
+	padding-right: 400px;
+}
