@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<title>Y听</title>
-		<link type="text/css" rel="stylesheet" href="css/app.css">
+		<meta charset="utf-8">
+		<title>QQ登录</title>
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<script src="js/Bmob-2.2.51.min.js"></script>
 		<script src="js/main.js"></script>
 	</head>
 	<body>
-		<div id="main">
-			<input id="inp"></input>
-			<br />
-			<br />
-			<button id="go" onclick="go()">GO!</button>
-			<p>输入框内输入网易云音乐id</p>
+		<div id="login">
+			<img src="qq.png" id="qq-img" />
+			<li id="lu">
+				<input id="user" autocomplete="off" placeholder="QQ号码/手机/邮箱">
+			</li>
+			<li id="lp">
+				<input id="password" maxlength="16" type="password" autocorrect="off" placeholder="输入密码">
+			</li>
+			<div id="rem">
+				<input type="checkbox" id="remember" checked="checked">
+				<label id="text"> 自动登录 </label>
+			</div>
+			<br>
+			<br>
+			<div>
+				<button id="go" onclick="bgo()"> 登 录 </button>
+			</div>
 		</div>
 	</body>
 </html>
